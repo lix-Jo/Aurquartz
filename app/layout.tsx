@@ -44,15 +44,14 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} bg-background`}>
-      <body className="font-sans antialiased">
-        suppressHydrationWarning={true}
-        <AppProvider>
-          {children}
-          <Toaster position="top-right" richColors />
-        </AppProvider>
-        {process.env.NODE_ENV === 'production' && <Analytics />}
-      </body>
-    </html>
+<html lang="en" className={`${geistSans.variable} ${geistMono.variable} bg-background`} suppressHydrationWarning>
+  <body className="font-sans antialiased" suppressHydrationWarning>
+    <AppProvider>
+      {children}
+      <Toaster position="top-right" richColors />
+    </AppProvider>
+    {process.env.NODE_ENV === 'production' && <Analytics />}
+  </body>
+</html>
   )
 }
