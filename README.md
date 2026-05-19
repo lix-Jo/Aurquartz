@@ -4,18 +4,32 @@
 
 ---
 
+## 🌐 Live Demo
+
+Experience the live demo version of Aurquartz here:
+
+🔗 https://aurquartz-frha.vercel.app/
+
+---
+
 ## 🏆 Achievement
 
-Aurquartz achieved **1st Place** at the Earth Sciences College Hackathon, demonstrating its practical impact, technical architecture, and real-world geological fieldwork value.
+Aurquartz achieved **1st Place** at the Earth Sciences College Hackathon 🥇  
+The project was recognized for combining geological field workflows with scalable modern software architecture.
 
-The project was recognized for:
+---
 
-* Digital transformation of geological field workflows
-* Strong integration between geology and software engineering
-* Practical exploration-oriented workflow design
-* GIS-compatible data architecture
-* Offline-first field usability
-* Scalable system architecture
+## 📸 Preview
+
+Aurquartz provides a modern geological fieldwork workflow including:
+
+- 🛰️ GPS-based sample recording
+- 🪨 Geological sample management
+- 📍 Interactive mapping
+- 📷 Geological photo documentation
+- ⛏️ Mineralization & alteration logging
+- 📊 CSV / KML / PDF export
+- 📡 Offline-first field operations
 
 ---
 
